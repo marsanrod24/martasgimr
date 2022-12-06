@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title> Inicio </title>
+		<link href="P9 web.css" rel="stylesheet" type="text/css">
+		<Script Language="JavaScript">
+			function DameLaFechaHora() {
+			var hora = new Date()
+			var hrs = hora.getHours();
+			var min = hora.getMinutes();
+			var hoy = new Date();
+			var m = new Array();
+			var d = new Array()
+			var an= hoy.getYear();
+			m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+			m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+			m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+			m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+			if (min<10){
+			document.write("Son las "+hrs+":0"+min+" (");
+			document.write(hoy.getDate());
+			document.write(" de ");
+			document.write(m[hoy.getMonth()]);
+			document.write(")");
+			}
+	
+			else{
+			document.write("Son las "+hrs+":"+min+" (");
+			document.write(hoy.getDate());
+			document.write(" de ");
+			document.write(m[hoy.getMonth()]);
+			document.write(")");
+			}
+			}
+		</Script>
+
+	</head>
+<body>
+<div class="header1">
+  <h1>Club de Gimnasia Rítmica</h1>
+  <p><b>By: Marta Sánchez Rodríguez</b></p>
+</div>
+	<a href="Practica 9 E.html" class="indice5"> Entrenos</a>
+	<a href="Practica 9 C.html" class="indice4"> Contacto </a>
+	<a href="Practica 9 M.html" class="indice3"> Materiales</a>
+	<a href="Practica 9 V.html" class="indice2"> Videos </a>
+	<a href="index.html" class="indice1"> Inicio </a>
+	<a href="-" class="Relleno">Esto es un relleno línea colors </a>
+	
+
+<br><br><br><br><br>
+	<div class="caja">	
+	<h2 class="texto_1"><p align="left"><font size="5px">¿Quién soy?</font></p>Me llamo Marta Sánchez, tengo 17 años y practico gimnasia rítimica desde pequeña. Empecé a los tres años y 
+	practiqué este deporte hasta que cumplí los trece años. Ahí decidí tomar un descanso puesto que aunque ame este deporte con mi alma
+	tiene algunas cosas que se debrían de pulir. Es por eso por lo que he creado este club.</h2>
+	<div class="inicio_1">
+	<img src="https://img.freepik.com/foto-gratis/gimnasta-ritmica-arena-profesional_654080-834.jpg?w=2000" height="300" width="500">
+	</div>
+	</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+	<div class="caja">	
+	<h2 class="texto_2"><p align="rignt"><font size="5px">¿Qué hago?</font></p>Con proposito de seguir con el deporte de mi vida he creado un club de gimnasia del que yo misma sere entrenadora. Para cambiar
+	esas cosas que impiden a miles de niñas y niños empezar o incluso seguir con su deporte favorito. En este club no se judgara a nadie, por creencias
+	ni por apariencias. Todo se hara para aprender y divertirse.</h2>
+
+	<div class="inicio_2">
+	<img src="https://img.freepik.com/fotos-premium/mujer-nina-entrenamiento-gimnasia-ritmica_506452-1482.jpg" height="300" width="350">
+	</div>
+	
+	</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+<br>
+	<div class="caja">	
+	<h2 class="texto_3"><p align="rignt"><font size="5px">¿Qué vamos a aprender?</font></p>En mi club las niñas y niños aprenderan desde las posiciones y figuras básicas en gimnasia rítimca hasta los lanzamientos
+	más increibles que puedas llegar a imaginar. Les enseñare cómo ganar flexibilidad y musculatura, cosas que les serviran en su vida cotidiana además de como utilizar
+	los aparatos de manera correcta sin hacerse daño. Y por último les enseñare el arte de hacer una coreografía en sintonía con sus compañeros, 
+	con la música y con ellos y ellas mismas. </h2>
+	<div class="inicio_3">
+	<img src="https://navarra.elespanol.com/media/navarra/images/2022/05/22/2022052218371394474.jpg" height="300" width="450">
+	</div>	
+	</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<hr>
+
+<br>
+	<p align="center">Marta Sánchez</p>
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+<a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog"><img src="https://counter5.optistats.ovh/private/contadorvisitasgratis.php?c=28sacaxes3a2xx4d1y9rpyre7l64xka6" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a>
+</body>
+</html>

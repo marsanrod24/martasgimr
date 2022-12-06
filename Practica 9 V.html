@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Videos</title>
+	<link href="P9 web.css" rel="stylesheet" type="text/css">
+	<Script Language="JavaScript">
+		function DameLaFechaHora() {
+		var hora = new Date()
+		var hrs = hora.getHours();
+		var min = hora.getMinutes();
+		var hoy = new Date();
+		var m = new Array();
+		var d = new Array()
+		var an= hoy.getYear();
+		m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+		m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+		m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+		m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+		if (min<10){
+		document.write("Son las "+hrs+":0"+min+" (");
+		document.write(hoy.getDate());
+		document.write(" de ");
+		document.write(m[hoy.getMonth()]);
+		document.write(")");
+		}
+	
+		else{
+		document.write("Son las "+hrs+":"+min+" (");
+		document.write(hoy.getDate());
+		document.write(" de ");
+		document.write(m[hoy.getMonth()]);
+		document.write(")");
+		}
+
+		}
+	</Script>
+
+</head>
+<body>
+<div class="header2">
+  <h1>Vídeos de interés</h1>
+  <p><b>By: Marta Sánchez Rodríguez</b></p>
+</div>
+
+
+<a href="Practica 9 E.html" class="indice5"> Entrenos</a>
+<a href="Practica 9 C.html" class="indice4"> Contacto </a>
+<a href="Practica 9 M.html" class="indice3"> Materiales</a>
+<a href="Practica 9 V.html" class="indice2"> Videos </a>
+<a href="index.html" class="indice1"> Inicio </a>
+<a href="-" class="Relleno">Esto es un relleno línea morada </a>
+
+<br><br><br><br><br>
+
+<div class="caja">	
+<div class="video1">	
+<h2> Algunas acrobacias básicas</h2>
+<iframe width="420" height="300" src="https://www.youtube.com/embed/RO00GawvakQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video2">
+<h2> Algunos equilibrios básicos</h2>
+<iframe width="420" height="300" src="https://www.youtube.com/embed/TuHtsdiXH5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+	
+<div class="video3">
+<h2> Algunos saltos básicos</h2>
+<iframe width="420" height="300" src="https://www.youtube.com/embed/Gs37wT-QPaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<hr>
+<br>
+
+<div class="caja">	
+<div class="video1">
+<h2>Coreografía individual</h2>  	
+<iframe width="420" height="300" src="https://www.youtube.com/embed/y79UCVR3umY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video2">
+<h2>Conjunto de 5 con cinta</h2>
+<iframe width="420" height="300" src="https://www.youtube.com/embed/jx5PxTnIAb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video3">
+<h2>Conjunto de 5 sin aparato</h2>
+<iframe width="420" height="300" src="https://www.youtube.com/embed/XePCYZ3a6gI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<hr>
+
+<br>
+	<p align="center">Marta Sánchez</p>
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+<a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog"><img src="https://counter5.optistats.ovh/private/contadorvisitasgratis.php?c=28sacaxes3a2xx4d1y9rpyre7l64xka6" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a>
+</body>
+</html>

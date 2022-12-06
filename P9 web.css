@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); 
+@import url('https://fonts.googleapis.com/css2? family= DM+Serif+Display & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata&display=swap');
+
+
+.header1 {
+  padding: 60px;
+  text-align: center;
+  text-shadow: black 6px 6px 2px; 
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220511/pngtree-dance-sport-and-rhythmic-gymnastics-seamless-pattern-with-silhouettes-of-dancing-image_1232881.jpg");
+  color: #CB4335;
+  font-size: 30px;
+  }
+  
+   .header2 {
+  padding: 60px;
+  text-align: center;
+  text-shadow: black 6px 6px 2px;
+  background-color:#EBDEF0; 
+  background-image: url("https://media.istockphoto.com/id/1221437186/es/vector/deportes-de-patr%C3%B3n-sin-costuras-con-gimnastas-atl%C3%A9tico.jpg?s=612x612&w=0&k=20&c=1wOaTiF2PjAH7rcS9SPY3SAdI0Wcf7-73R2H9_vSoRg=");
+  color:#E8873C;
+  font-size: 30px;
+  }
+  
+  .header3 {
+  padding: 60px;
+  text-align: center;
+  text-shadow: black 6px 6px 2px;
+  background-color:#EBDEF0; 
+  background-image: url("https://thumbs.dreamstime.com/b/la-gimnasia-r%C3%ADtmica-establece-un-patr%C3%B3n-sin-fisuras-conjunto-de-vectores-equipo-botellas-agua-deportivo-bolas-cinta-garrotes-229363377.jpg");
+  color:#D7BDE2;
+  font-size: 30px;
+  }
+  
+   .header4 {
+  padding: 60px;
+  text-align: center;
+  text-shadow: black 6px 6px 2px;
+  background-color:#EBDEF0; 
+  background-image: url("https://media.istockphoto.com/id/1221437989/es/vector/deportes-de-patr%C3%B3n-sin-costuras-con-gimnastas-atl%C3%A9tico.jpg?s=612x612&w=0&k=20&c=JnURZayrWbYhM7qWlQc7VdaIkVgSCobUOELdPzYRvQE=");
+  color:#00ACC1;
+  font-size: 30px;
+  }
+  
+   .header5 {
+  padding: 60px;
+  text-align: center;
+  text-shadow: black 6px 6px 2px;
+  background-color:#EBDEF0; 
+  background-image: url("https://media.istockphoto.com/vectors/sports-seamless-pattern-with-gymnasts-athletic-vector-id1221437557?k=20&m=1221437557&s=170667a&w=0&h=IXjMu9W6177HGUkoy0fHX8HKqVhbuE8G0nkApQz7G0I=");
+  color:#FF00FF;
+  font-size: 30px;
+  }
+  
+  
+.caja{
+	position: relative;
+}
+
+.Relleno{
+width :653px;
+height :70px;
+background: #ECEFF1;
+color :#ECEFF1;
+font-size :30px;
+text-align: left;
+float: left;
+line-height: 60px;
+}
+
+.indice1{
+width :170px;
+height :70px;
+background :#ECEFF1;
+color :black;
+font-size :20px;
+text-align: center;
+float: right;
+position: static;
+line-height: 60px;
+font-family:'DM Serif Display', serif;
+}
+
+.indice2{
+width :170px;
+height :70px;
+background :#ECEFF1;
+color :black;
+font-size :20px;
+text-align: center;
+float: right;
+position: static;
+line-height: 60px;
+font-family:'DM Serif Display', serif;
+}
+
+.indice3{
+width :170px;
+height :70px;
+background :#ECEFF1;
+color :black;
+font-size :20px;
+text-align: center;
+float: right;
+position: static;
+line-height: 60px;
+font-family:'DM Serif Display', serif;
+}
+
+.indice4{
+width :170px;
+height :70px;
+background :#ECEFF1;
+color :black;
+font-size :20px;
+text-align: center;
+float: right;
+position: static;
+line-height: 60px;
+font-family:'DM Serif Display', serif;
+}
+
+.indice5{
+width :170px;
+height :70px;
+background :#ECEFF1;
+color :black;
+font-size :20px;
+text-align: center;
+float: right;
+position: static;
+line-height: 60px;
+font-family:'DM Serif Display', serif;
+}
+
+.texto_1{
+position: absolute;
+width: 600px;
+text-align: left;
+left: 50px;
+top: 30px;
+}
+
+.texto_2{
+position: absolute;
+width: 600px;
+text-align: right;
+right: 50px;
+top: 30px;
+}
+
+.texto_3{
+position: absolute;
+width: 800px;
+text-align: left;
+left: 50px;
+}
+
+.inicio_1{
+position: absolute;
+right: 200px;
+top: 25px;
+}
+
+.inicio_2{
+position: absolute;
+left: 100px;
+top:60px;
+}
+
+.inicio_3{
+position: absolute;
+right: 100px;
+top:30px;
+}
+
+.video1{
+float: left;
+position: absolute;
+left: 50px;
+}
+
+.video2{
+float: left;
+position: absolute;
+left: 530px;
+}
+
+.video3{
+float: left;
+position: absolute;
+left: 1000px;
+}
+
+
+.mapa{
+float: left;
+position: relative;
+left: 700px;
+bottom:200px;
+}
+
+.formulario{
+width: 400px;
+position: absolute;
+left:100px;
+top: 650px;
+
+}
+
+.redes{
+position: relative;
+right:500px;
+top: 30px;
+text-align: left;
+}
+
+
+.hora{
+border: #F3E5F5 6px outset;
+border-width: 1em;
+width: 250px;
+height: 45px;
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+line-height: 50px;
+}
+
+h1{
+font-family: 'Abril Fatface', cursive;
+font-size: 30pt;
+}
+
+h2{
+text-align: center;
+font-family: 'Nunito', sans-serif;
+font-size: 15pt;
+}
+
+
+p{
+font-family: 'Literata', serif;
+}
+
+hr{
+height: 6px;
+background-color:#78909C;
+width: 83%
+}
+

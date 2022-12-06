@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Entrenos</title>
+		<link href="P9 web.css" rel="stylesheet" type="text/css">
+		<Script Language="JavaScript">
+			function DameLaFechaHora() {
+			var hora = new Date()
+			var hrs = hora.getHours();
+			var min = hora.getMinutes();
+			var hoy = new Date();
+			var m = new Array();
+			var d = new Array()
+			var an= hoy.getYear();
+			m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+			m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+			m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+			m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+			if (min<10){
+			document.write("Son las "+hrs+":0"+min+" (");
+			document.write(hoy.getDate());
+			document.write(" de ");
+			document.write(m[hoy.getMonth()]);
+			document.write(")");
+			}
+	
+			else{
+			document.write("Son las "+hrs+":"+min+" (");
+			document.write(hoy.getDate());
+			document.write(" de ");
+			document.write(m[hoy.getMonth()]);
+			document.write(")");
+			}
+			}
+		</Script>
+
+	</head>
+<body>
+<div class="header5">
+  <h1>Entrenos</h1>
+  <p><b>By: Marta Sánchez Rodríguez</b></p>
+</div>
+	<a href="Practica 9 E.html" class="indice5"> Entrenos</a>
+	<a href="Practica 9 C.html" class="indice4"> Contacto </a>
+	<a href="Practica 9 M.html" class="indice3"> Materiales</a>
+	<a href="Practica 9 V.html" class="indice2"> Videos </a>
+	<a href="index.html" class="indice1"> Inicio </a>
+	<a href="-" class="Relleno">Esto es un relleno línea morada </a>
+
+<br><br><br><br><br><br><br>
+<p align="center"><font size="5px">Horario semanal por edades.</font></p>
+
+<table align="center" border="5" bordercolor="purple" cellpadding="10" cellspacing="20">
+     <tr align="center">
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+		<th>Jueves</th>
+		<th>Viernes</th>
+		<th>Sábado</th>
+		<th>Domingo</th>
+	</tr>
+	<tr align="center">
+		<td>8:30-11:00</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td bgcolor=#FFCCBC>+18 años</td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>16:00-17:00</td>
+		<td></td>
+		<td bgcolor=#FFF9C4 >2 a 5 años</td>
+		<td></td>
+		<td bgcolor=#FFF9C4>2 a 5 años</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>17:00-18:00</td>
+		<td bgcolor=#DCEDC8>6 a 8 años</td>
+		<td bgcolor=#DCEDC8>6 a 8 años</td>
+		<td></td>
+		<td bgcolor=#DCEDC8>6 a 8 años</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr align="center"> 
+		<td>18:00-19:00</td>
+		<td bgcolor=#F8BBD0>9 a 15 años</td>
+		<td></td>
+		<td bgcolor=#F8BBD0>9 a 15 años</td>
+		<td></td>
+		<td bgcolor=#F8BBD0>9 a 15 años</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>19:00-20:00</td>
+		<td bgcolor=#B3E5FC>16 a 18 años</td>
+		<td></td>
+		<td bgcolor=#B3E5FC>16 a 18 años</td>
+		<td></td>
+		<td bgcolor=#B3E5FC>16 a 18 años</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr align="center">
+		<td>20:00-22:00</td>
+		<td bgcolor=#FFCCBC>+18 años</td>
+		<td></td>
+		<td bgcolor=#FFCCBC>+18 años</td>
+		<td></td>
+		<td bgcolor=#FFCCBC>+18años</td>
+		<td></td>
+		<td></td>
+	</tr>
+	
+</table>
+
+<br><br><br>
+<hr>
+
+<br>
+	<p align="center">Marta Sánchez</p>
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+<a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog"><img src="https://counter5.optistats.ovh/private/contadorvisitasgratis.php?c=28sacaxes3a2xx4d1y9rpyre7l64xka6" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a>
+</body>
+</html>
